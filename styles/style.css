@@ -3,7 +3,63 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body{
     font-family: "Merriweather", serif;
+}
+/* style for banner start here*/
+.banner-container{
+    width: 1320px;
+    margin: 0 auto;
+    min-width: 600px;
+    border: 2px solid red;
+    margin-top: 10px;
+    background-image:url("/images/Banner Image.png") ;
+}
+/* 65% section style start here */
+.second-section-container{
+    width: 802.9px;
+    height: 806px;
+    margin: 0 auto;
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+.second-section-content{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+.second-section-content h1{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 107px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.second-section-content p{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+.second-section-content h3{
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+.image-container{
+    width: 802.9px;
+    height: 500px;
+}
+.image-container img{
+    height: 100%;
+    width: 100%;
 }
