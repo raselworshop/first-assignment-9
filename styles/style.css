@@ -11,11 +11,12 @@ body{
 /* style for banner start here*/
 .banner-container{
     width: 1320px;
+    height: 100%;
     margin: 0 auto;
     min-width: 600px;
     border: 2px solid red;
     margin-top: 10px;
-    background-image:url("/images/Banner Image.png") ;
+    background-image:url("/images/Banner-Image.png") ;
 }
 /* 65% section style start here */
 .second-section-container{
