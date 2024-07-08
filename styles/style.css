@@ -166,3 +166,98 @@ button{
     border-radius: 6px;
     padding: 12px 15px;
 }
+/* best offer style start here */
+#best-offer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    margin: 0 auto;
+    width: 1320px;
+    height: 463px;
+    margin-top: 50px;
+    border: 2px solid red;
+}
+.best-offer-content{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+}
+.comingsoon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 430px;
+    height: 255px;
+    float: left;
+}
+.comingsoon h3{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 8px;
+    margin-right: 130px;
+
+}
+.comingsoon h1{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    padding: 8px;
+    margin-right: 15px;
+}
+.comingsoon p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 37px;
+    padding: 8px;
+}
+.offer-content-image img{
+    border:28px solid rgb(247, 241, 241);
+    border-radius: 100%;
+}
+.offer-content-image{
+    align-items: center;
+    border-image-width:50px ;
+    border-radius: 100%;
+    border: 18px solid red;
+}
+.upcoming-year{
+    display: flex;
+    flex-direction: column;
+    justify-content:end;
+    align-items: center;
+    width: 430px;
+    height: 255px;
+
+}
+.upcoming-year p{
+    width: 276px;
+    height: 96px;
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+.upcoming-year h1{
+    width: 126px;
+    height: 58px;
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+.upcoming-year2 img{
+    width: 143px;
+    height: 129.90px;
+    padding-top: 15px;}
+    
